@@ -65,6 +65,20 @@ Disable IPv6 & assign IPv4 address like ``xxx.xxx.x.251`` as part of standardiza
 
 Firewall 
 ========
-Turn off Firewall (Must turn on after installation)
+Turn off Firewall
+
+.. caution:: Must turn on Firewall after installation
+
 
 `How to turn Firewall on/off <https://support.microsoft.com/en-us/windows/turn-microsoft-defender-firewall-on-or-off-ec0844f7-aebd-0583-67fe-601ecf5d774f>`_
+
+
+Date, Time and Regional Settings
+================================
+* Change Time Zone to ``(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi``
+* Change time format to ``dd-MMM-yyyy``
+* Set First day of week as ``Sunday``
+* Short Time as ``hh:mm tt``
+* Long Time as ``hh:mm:ss tt``
+
+Change Date, Time and Regional Settings in **Control Panel > Clock and Region > (Additional Settings)**
