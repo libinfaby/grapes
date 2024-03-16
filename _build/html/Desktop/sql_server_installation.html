@@ -50,7 +50,17 @@
 <li class="toctree-l1"><a class="reference internal" href="database.html">Database Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="additional_sw.html">Additional Softwares</a></li>
 <li class="toctree-l1"><a class="reference internal" href="erc_folder.html">ERC Folder</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">SQl Sever Installation Steps</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">SQl Sever Installation Steps</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#download-sql-server-installer">Download SQL Server Installer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#download-ssms">Download SSMS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installation-steps">Installation Steps</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#select-installation-type-custom">1. Select Installation type <code class="docutils literal notranslate"><span class="pre">Custom</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#create-d-database-and-browse-to-that-folder-click-install">2. Create <code class="docutils literal notranslate"><span class="pre">D:/DATABASE</span></code> and Browse to that folder; Click <code class="docutils literal notranslate"><span class="pre">Install</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#select-new-sql-server-standalone-installation-or-add-features-to-an-existing-installation">1. Select <code class="docutils literal notranslate"><span class="pre">New</span> <span class="pre">SQL</span> <span class="pre">Server</span> <span class="pre">standalone</span> <span class="pre">installation</span> <span class="pre">or</span> <span class="pre">Add</span> <span class="pre">features</span> <span class="pre">to</span> <span class="pre">an</span> <span class="pre">existing</span> <span class="pre">installation</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Mobile:</span></p>
 <ul>
@@ -83,6 +93,51 @@
              
   <section id="sql-sever-installation-steps">
 <h1>SQl Sever Installation Steps<a class="headerlink" href="#sql-sever-installation-steps" title="Link to this heading"></a></h1>
+<section id="download-sql-server-installer">
+<h2>Download SQL Server Installer<a class="headerlink" href="#download-sql-server-installer" title="Link to this heading"></a></h2>
+<p><a class="reference external" href="https://www.microsoft.com/en-in/sql-server/sql-server-downloads">https://www.microsoft.com/en-in/sql-server/sql-server-downloads</a></p>
+</section>
+<section id="download-ssms">
+<h2>Download SSMS<a class="headerlink" href="#download-ssms" title="Link to this heading"></a></h2>
+<p><a class="reference external" href="https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16">https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16</a></p>
+<p>While SSMS downloading, run the Installer application</p>
+</section>
+<section id="installation-steps">
+<h2>Installation Steps<a class="headerlink" href="#installation-steps" title="Link to this heading"></a></h2>
+<section id="select-installation-type-custom">
+<h3>1. Select Installation type <code class="docutils literal notranslate"><span class="pre">Custom</span></code><a class="headerlink" href="#select-installation-type-custom" title="Link to this heading"></a></h3>
+<img alt="../_images/install_type_custom.png" src="../_images/install_type_custom.png" />
+</section>
+<section id="create-d-database-and-browse-to-that-folder-click-install">
+<h3>2. Create <code class="docutils literal notranslate"><span class="pre">D:/DATABASE</span></code> and Browse to that folder; Click <code class="docutils literal notranslate"><span class="pre">Install</span></code><a class="headerlink" href="#create-d-database-and-browse-to-that-folder-click-install" title="Link to this heading"></a></h3>
+<img alt="../_images/database_select.png" src="../_images/database_select.png" />
+<p><strong>SQL Server installation center</strong> will open up</p>
+</section>
+<section id="select-new-sql-server-standalone-installation-or-add-features-to-an-existing-installation">
+<h3>1. Select <code class="docutils literal notranslate"><span class="pre">New</span> <span class="pre">SQL</span> <span class="pre">Server</span> <span class="pre">standalone</span> <span class="pre">installation</span> <span class="pre">or</span> <span class="pre">Add</span> <span class="pre">features</span> <span class="pre">to</span> <span class="pre">an</span> <span class="pre">existing</span> <span class="pre">installation</span></code><a class="headerlink" href="#select-new-sql-server-standalone-installation-or-add-features-to-an-existing-installation" title="Link to this heading"></a></h3>
+<img alt="../_images/installation_center.png" src="../_images/installation_center.png" />
+<ol class="arabic simple">
+<li><p>installation</p></li>
+<li><p>Accept licence terms</p></li>
+<li><p>x Global Rules</p></li>
+<li><p>x Microsoft update</p></li>
+<li><p>x product updates</p></li>
+<li><p>x Install Setup files</p></li>
+<li><p>x install rules</p></li>
+<li><p>Uncheck Azure Extension</p></li>
+<li><p>Feature Selection - Check Local DB, Browse ‘DATABASE’ folder for ‘Instance root directory’</p></li>
+<li><p>Instance Configuration - Click Default instance ‘MSSQLSERVER’</p></li>
+<li><p>Server configuration - SQL Server Browser &gt; Automatic()</p></li>
+<li><p>If no user add current user</p></li>
+<li><p>installation complete</p></li>
+<li><p>close installer</p></li>
+<li><p>Run SSMS Setup application</p></li>
+<li><p>Set location to DATABASE</p></li>
+<li><p>Click Restart</p></li>
+<li><p>Open SQL Server Management Studio</p></li>
+</ol>
+</section>
+</section>
 </section>
 
 
