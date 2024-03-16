@@ -14,6 +14,7 @@ Welcome to Grapes Installation Guide's documentation!
    Desktop/database
    Desktop/additional_sw
    Desktop/erc_folder
+   Desktop/sql_server_installation.rst
 
 .. toctree::
    :maxdepth: 2
