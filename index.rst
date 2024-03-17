@@ -14,22 +14,11 @@ Welcome to Grapes Installation Guide!
    Desktop/database
    Desktop/additional_sw
    Desktop/erc_folder
-   Desktop/sql_server_installation.rst
+   Desktop/sql_server_installation
 
 .. toctree::
    :maxdepth: 2
    :caption: Mobile:
 
-   Mobile/bsa.rst
-
-.. toctree::
-   :maxdepth: 2
-   :caption: SQL:   
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   Mobile/bsa
+   Mobile/mis
