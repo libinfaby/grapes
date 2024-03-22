@@ -6,7 +6,7 @@ SQL Server
 ==========
 Install **SQL Server 2019 or above**
 
-Click :doc:`here </Desktop/sql_server_installation>` to see SQL Server installation steps
+Click :doc:`here </Installation/sql_server_installation>` to see SQL Server installation steps
 
 
 Restore Databases

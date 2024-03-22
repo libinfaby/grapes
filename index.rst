@@ -8,17 +8,16 @@ Welcome to Grapes Installation Guide!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Desktop:
+   :caption: Installation:
 
-   Desktop/os_related
-   Desktop/database
-   Desktop/additional_sw
-   Desktop/erc_folder
-   Desktop/sql_server_installation
+   Installation/os_related
+   Installation/database
+   Installation/additional_sw
+   Installation/erc_folder
+   Installation/sql_server_installation
 
 .. toctree::
    :maxdepth: 2
-   :caption: Mobile:
+   :caption: Implementation:
 
-   Mobile/bsa
-   Mobile/mis
+   Implementation/app_configuration
