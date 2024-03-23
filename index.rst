@@ -8,8 +8,9 @@ Welcome to Grapes Installation Guide!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Installation:
+   :caption: Installation
 
+   Installation/introduction
    Installation/os_related
    Installation/database
    Installation/additional_sw
@@ -18,6 +19,8 @@ Welcome to Grapes Installation Guide!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Implementation:
+   :caption: Implementation
 
+   Implementation/introduction.rst
+   Implementation/masters_preparation
    Implementation/app_configuration
