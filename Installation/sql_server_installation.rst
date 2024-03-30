@@ -25,7 +25,7 @@ Installation Steps
 
 **SQL Server installation center** will open up
 
-1. Select ``New SQL Server standalone installation or Add features to an existing installation``
+3. Select ``New SQL Server standalone installation or Add features to an existing installation``
 -------------------------------------------------------------------------------------------------------
 .. image:: /Images/SQL-Installation/installation_center.png
 
