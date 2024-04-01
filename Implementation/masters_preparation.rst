@@ -7,23 +7,32 @@ A patient visits a hospital or clinic for doctor's consultation. Hence, preparin
 
 1. DNA Registration
 ---------------------------------------------
-DNA stands for **Doctor's Name and Address**. DNA Registration is done online and this is how we store the doctor details on our servers. This information is later used by our various mobile applications.
+DNA stands for **Doctor's Name and Address**. DNA registration is completed online and this information is stored on our servers for later use by various mobile applications.
 
-.. warning:: Before registering a doctor via DNA Registration you'll need to configure the DNA Registration link in the global settings.  
+.. note:: Before registering a doctor via DNA Registration, you'll need to configure the DNA Registration link in the **Global Settings and Policies**. Search for ``DNA Registration Link``, double click on the item and set the value as ``www.link.com=<HID>`` where ``HID`` stands for the unique Hospital ID. Do the same for ``DNA Registration SMS Link`` if you want to send the link as an SMS to the doctors phone number.
 
-To register a doctor via DNA,
+.. topic:: Don't have the Hospital ID?
+
+   Hospital ID's are usually set up by the Grapes administrator. You'll get the ID from the G-Service popup in the system tray area (if it's already running), or you can contact the grapes administrator.
+
+
+After configuring the link, you can register doctors via DNA. For this,
 
 * Open Grapes Masters from *Masters > Grapes Masters* or by pressing *ctrl + G*
 * Select Doctor Master
-* On the newly opened form you'll see a button named **DNA Registration**
+* On the newly opened form you'll see a button at the top right corner named **DNA Registration**
 * Click on the button to open the DNA Registration website
 
-  .. note:: If you still see an error message while clicking the button, that might be the result of a wrongly configured DNA Registration link in the global settings and policies. 
+  .. attention:: If you still see an error message while clicking the button, that might be the result of a wrongly configured DNA Registration link.
+
+* click register
+* info about all required options
+* click submit
   
 
 1. Consultation Details
 -----------------------
-test
+sfsfsfbsfhsfhfsy
 
 
 Bill Head Master

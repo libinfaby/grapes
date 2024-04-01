@@ -15,6 +15,8 @@ While SSMS downloading, run the Installer application
 Installation Steps
 ==================
 
+
+
 1. Select Installation type ``Custom``
 --------------------------------------
 .. image:: /Images/SQL-Installation/install_type_custom.png
