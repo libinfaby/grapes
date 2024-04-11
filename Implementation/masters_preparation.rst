@@ -9,7 +9,7 @@ A patient visits a hospital or clinic for doctor's consultation. Hence, preparin
 ---------------------------------------------
 DNA stands for **Doctor's Name and Address**. DNA registration is completed online and this information is stored on our servers for later use by various mobile applications.
 
-.. note:: Before registering a doctor via DNA Registration, you'll need to configure the DNA Registration link in the **Global Settings and Policies**. Search for ``DNA Registration Link``, double click on the item and set the value as ``www.link.com=<HID>`` where ``HID`` stands for the unique Hospital ID. Do the same for ``DNA Registration SMS Link`` if you want to send the link as an SMS to the doctors phone number.
+.. note:: Before registering a doctor via DNA Registration, you'll need to configure the DNA Registration link in the **Global Settings and Policies**. Search for ``DNA Registration Link``, double click on the item and set the value as ``http://grapesdev.in:50105/dna/?app_flag=GHMS&hospital_id=<HID>`` where ``HID`` stands for the unique Hospital ID. Do the same for ``DNA Registration SMS Link`` if you want to send the link as an SMS to the doctors phone number.
 
 .. topic:: Don't have the Hospital ID?
 
