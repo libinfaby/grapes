@@ -24,4 +24,5 @@ Table Of Contents
 
    Implementation/introduction
    Implementation/masters_preparation
+   Implementation/registration
    
